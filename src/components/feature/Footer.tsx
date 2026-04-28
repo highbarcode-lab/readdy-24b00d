@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="sm:col-span-2 lg:col-span-1">
               <a href="#hero" onClick={() => scrollTo('#hero')} className="flex items-center gap-3 mb-4">
                 <img
-                  src="https://static.readdy.ai/image/24bb14c1d4e3d6d52685c73a70a1ff0d/26b101026ea801bc8c9dd064786afe6e.png"
+                  src="/logo.png"
                   alt="Highbarcode"
                   className="h-8 w-auto"
                 />
