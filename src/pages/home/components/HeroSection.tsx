@@ -89,7 +89,7 @@ export default function HeroSection() {
                 </p>
               </div>
 
-              {/* CTA Buttons */}
+              {/* CTA Buttons }
               <div className="reveal opacity-0 translate-y-6 transition-all duration-700 delay-400 flex flex-wrap gap-4">
                 <button
                   onClick={scrollToContact}
@@ -106,12 +106,12 @@ export default function HeroSection() {
                 >
                   {t('common:cta_explore')}
                 </button>
-              </div>
+              </div>*/}
 
               {/* Shop Link */}
               <div className="reveal opacity-0 translate-y-6 transition-all duration-700 delay-500">
                 <a
-                  href="https://highbarcode.com/shop"
+                  href="https://highbarcode.co.kr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-medium transition-colors duration-300"
