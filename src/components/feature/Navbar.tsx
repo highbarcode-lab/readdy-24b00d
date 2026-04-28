@@ -15,10 +15,10 @@ export default function Navbar() {
   }, []);
 
   const navItems = [
-    { label: t('common:nav_home'), href: '#hero' },
-    { label: t('common:nav_services'), href: '#services' },
-    { label: t('common:nav_portfolio'), href: '#portfolio' },
-    { label: t('common:nav_contact'), href: '#contact' },
+    { label: t('common:home'), href: '#hero' },
+    { label: t('common:services'), href: '#services' },
+    { label: t('common:portfolio'), href: '#portfolio' },
+    { label: t('common:contact'), href: '#contact' },
   ];
 
   const scrollTo = (href: string) => {
@@ -67,12 +67,12 @@ export default function Navbar() {
           {/* Shop Button + Mobile Toggle */}
           <div className="flex items-center gap-3">
             <a
-              href="https://highbarcode.com/shop"
+              href="https://highbarcode.co.kr"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-300 whitespace-nowrap"
             >
-              {t('common:nav_shop')}
+              {t('common:shop')}
               <i className="ri-arrow-right-line" />
             </a>
 
@@ -101,7 +101,7 @@ export default function Navbar() {
               </button>
             ))}
             <a
-              href="https://highbarcode.com/shop"
+              href="https://highbarcode.co.kr"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-amber-500 text-white text-sm font-semibold px-5 py-2.5 rounded-full mt-2"

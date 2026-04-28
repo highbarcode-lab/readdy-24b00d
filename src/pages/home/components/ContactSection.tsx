@@ -84,7 +84,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="text-navy-900 font-semibold text-sm mb-1">이메일</h4>
-                    <p className="text-navy-600 text-sm">contact@highbarcode.com</p>
+                    <p className="text-navy-600 text-sm">highbarcode@naver.com</p>
                   </div>
                 </div>
 
@@ -94,7 +94,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="text-navy-900 font-semibold text-sm mb-1">전화</h4>
-                    <p className="text-navy-600 text-sm">02-1234-5678</p>
+                    <p className="text-navy-600 text-sm">02-2138-3927</p>
                   </div>
                 </div>
 
@@ -151,7 +151,7 @@ export default function ContactSection() {
                         </label>
                         <input
                           type="text"
-                          name="name"
+                          name="Name"
                           required
                           className="w-full px-4 py-3 bg-warm-50 border border-warm-200 rounded-lg text-navy-900 text-sm focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-all"
                           placeholder="성함을 입력해주세요"
@@ -163,7 +163,7 @@ export default function ContactSection() {
                         </label>
                         <input
                           type="text"
-                          name="company"
+                          name="Company"
                           className="w-full px-4 py-3 bg-warm-50 border border-warm-200 rounded-lg text-navy-900 text-sm focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-all"
                           placeholder="회사명을 입력해주세요"
                         />
@@ -177,7 +177,7 @@ export default function ContactSection() {
                         </label>
                         <input
                           type="email"
-                          name="email"
+                          name="Email"
                           required
                           className="w-full px-4 py-3 bg-warm-50 border border-warm-200 rounded-lg text-navy-900 text-sm focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-all"
                           placeholder="email@example.com"
@@ -189,7 +189,7 @@ export default function ContactSection() {
                         </label>
                         <input
                           type="tel"
-                          name="phone"
+                          name="Phone"
                           className="w-full px-4 py-3 bg-warm-50 border border-warm-200 rounded-lg text-navy-900 text-sm focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition-all"
                           placeholder="010-0000-0000"
                         />
@@ -217,7 +217,7 @@ export default function ContactSection() {
                       type="submit"
                       className="w-full inline-flex items-center justify-center gap-3 bg-amber-500 hover:bg-amber-400 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 text-base whitespace-nowrap cursor-pointer"
                     >
-                      {t('common:submit')}
+                      {t('common:Submit')}
                       <i className="ri-send-plane-line" />
                     </button>
                   </form>

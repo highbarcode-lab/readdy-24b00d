@@ -1,15 +1,15 @@
 export const services = [
   {
     id: 'printer-maintenance',
-    title: '프린터 유지보수 및 캘리브레이션',
+    title: '바코드 장비 유지보수',
     description:
       'Zebra, Honeywell, Bixolon, TSC 등 주요 산업용 바코드 프린터의 전문 유지보수 서비스를 제공합니다. 센서 캘리브레이션, 헤드 교체, 펌웨어 업데이트 등 정밀한 기술 지원으로 장비의 최적 성능을 보장합니다.',
     icon: 'ri-printer-line',
     features: [
-      'Zebra 프린터 전문 수리',
-      'Honeywell 센서 캘리브레이션',
-      'Bixolon/TSC 유지보수',
-      '예방 정비 프로그램',
+      'Zebra 하드웨어 진단 및 정밀수리',
+      'Honeywell 바코드 시스템 최적화 관리',
+      'Bixolon/TSC 라벨 출력 솔루션 유지보수',
+      '선제적 예방 정비 서비스',
     ],
   },
   {
