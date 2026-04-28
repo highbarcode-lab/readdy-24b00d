@@ -42,7 +42,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#hero" onClick={() => scrollTo('#hero')} className="flex items-center gap-3">
             <img
-              src="/logo.png"
+              src="/logo_2.jpg"
               alt="Highbarcode"
               className="h-8 md:h-10 w-auto"
             />
