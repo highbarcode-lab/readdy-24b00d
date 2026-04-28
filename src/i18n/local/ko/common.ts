@@ -1,4 +1,4 @@
-export const common = {
+const common = {
   nav_home: '홈',
   nav_services: '서비스',
   nav_portfolio: '포트폴리오',
@@ -19,3 +19,5 @@ export const common = {
   send_error: '전송 중 오류가 발생했습니다. 다시 시도해주세요.',
   copyright: '© 2025 Highbarcode. All rights reserved.',
 };
+
+export default common;
