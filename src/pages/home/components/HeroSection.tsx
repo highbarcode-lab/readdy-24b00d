@@ -131,7 +131,7 @@ export default function HeroSection() {
                   <div className="absolute inset-0 bg-gradient-to-br from-amber-500/20 to-transparent rounded-3xl" />
                   <div className="absolute inset-4 bg-navy-800/80 backdrop-blur-sm rounded-2xl border border-white/10 flex items-center justify-center">
                     <img
-                      src="https://static.readdy.ai/image/24bb14c1d4e3d6d52685c73a70a1ff0d/26b101026ea801bc8c9dd064786afe6e.png"
+                      src="/logo.png"
                       alt="Highbarcode"
                       className="w-48 h-48 object-contain"
                     />
